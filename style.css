@@ -491,15 +491,25 @@ a {
 }
 
 .card-image1 {
-    background-image: url(https://i.postimg.cc/XqKH094L/Screenshot-20240512-234144.png);
+  background-image: url(https://i.postimg.cc/XqKH094L/Screenshot-20240512-234144.png);
+  background-size: cover; /* Scale the background image to cover the entire element */
+  overflow: hidden; /* Ensure the background image doesn't overflow the element */
+  width: 100%;
+  
 }
 
 .card-image2 {
   background-image: url(https://i.postimg.cc/hGfKPtJT/Screenshot-20240512-235045.png);
+   background-size: cover; /* Scale the background image to cover the entire element */
+  overflow: hidden; /* Ensure the background image doesn't overflow the element */
+  width: 100%;
 }
 
 .card-image3 {
   background-image: url(https://static.toiimg.com/photo/msid-100791916/100791916.jpg);
+  background-size: cover; /* Scale the background image to cover the entire element */
+  overflow: hidden; /* Ensure the background image doesn't overflow the element */
+  width: 100%;
 }
 
 .card-content {
